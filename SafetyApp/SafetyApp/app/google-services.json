@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "79546085021",
+    "firebase_url": "https://safety-app-firebase-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "safety-app-firebase",
+    "storage_bucket": "safety-app-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79546085021:android:5c38ef274b88542f40ee74",
+        "android_client_info": {
+          "package_name": "com.example.safetyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGHKOioBKmfh1g5Vtl9HeGPAnSwG0jn4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

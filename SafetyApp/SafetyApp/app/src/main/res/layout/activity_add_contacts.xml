@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity"
+    android:theme="@style/MainTheme">
+
+    <TextView
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_emergency_contact" />
+
+    <TextView
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_information" />
+
+    <!--    Name input-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextInputLayerStyle">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emergencyName"
+            android:hint="@string/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    phone number input-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextInputLayerStyle">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emergencyNum"
+            android:hint="@string/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    Add button-->
+    <Button
+        android:id="@+id/btn_addEm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/Button.Yellow"
+        android:text="@string/add"/>
+
+</LinearLayout>

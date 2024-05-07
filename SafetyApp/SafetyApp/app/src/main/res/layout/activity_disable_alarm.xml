@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Utils.DisableAlarm"
+    style="@style/AlertTheme"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEACTIVATE"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="28sp" />
+
+    <!--    Password input-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextInputLayerStyle">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordDisable"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    Enter Password button-->
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/Button.DarkRed"
+        android:text="@string/enter"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency_mode_in"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/countdownTimer"
+        android:text="10"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:textSize="28sp"/>
+
+</LinearLayout>

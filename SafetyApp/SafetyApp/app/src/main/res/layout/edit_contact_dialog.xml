@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Edit Text for Contact Name -->
+    <EditText
+        android:id="@+id/editContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Name"
+        android:inputType="text"
+        android:padding="20sp" />
+
+    <!-- Edit Text for Contact Number -->
+    <EditText
+        android:id="@+id/editContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:padding="20sp" />
+
+</LinearLayout>
